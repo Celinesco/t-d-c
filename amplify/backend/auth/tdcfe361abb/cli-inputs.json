@@ -41,7 +41,8 @@
       "email"
     ],
     "userPoolGroupList": [
-      "tdcfe361abbuserpoolfe361abbdev"
+      "tdcfe361abbuserpoolfe361abbdev",
+      "TodoApp1"
     ],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
