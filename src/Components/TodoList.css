@@ -1,0 +1,33 @@
+.ul__todos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.li__inidivual-todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    padding: 15px;
+    width: 250px;
+    margin:5px;
+    border-radius: 20px;
+}
+
+.todo__actions button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+
+.todo__actions button:hover {
+    transform: scale(1.2);
+}
+
+.todo__done {
+    text-decoration: line-through;
+}
